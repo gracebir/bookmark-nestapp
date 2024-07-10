@@ -6,8 +6,8 @@ services:
       - 5434:5434
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD:  123
-      POSTGRES_DB: NES
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: nest
     networks:
       - freecodecamp
 networks:
